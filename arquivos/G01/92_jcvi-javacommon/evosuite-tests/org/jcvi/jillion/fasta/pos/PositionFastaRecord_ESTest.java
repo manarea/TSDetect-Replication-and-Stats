@@ -17,8 +17,8 @@ import org.jcvi.jillion.core.pos.PositionSequence;
 import org.jcvi.jillion.fasta.pos.PositionFastaRecord;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class PositionFastaRecord_ESTest extends PositionFastaRecord_ESTest_scaffolding {
+ 
+public class PositionFastaRecordTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

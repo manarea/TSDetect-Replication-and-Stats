@@ -41,8 +41,8 @@ import org.evosuite.runtime.testdata.FileSystemHandling;
 import org.jfree.data.time.SimpleTimePeriod;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class CalEventModelImpl_ESTest extends CalEventModelImpl_ESTest_scaffolding {
+ 
+public class CalEventModelImplTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

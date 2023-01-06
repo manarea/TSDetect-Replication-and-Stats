@@ -14,8 +14,8 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.gudy.azureus2.ui.swt.mainwindow.MainMenu;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class MainMenu_ESTest extends MainMenu_ESTest_scaffolding {
+ 
+public class MainMenuTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

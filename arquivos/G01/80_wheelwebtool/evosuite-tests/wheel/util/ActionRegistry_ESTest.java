@@ -16,8 +16,8 @@ import wheel.components.Component;
 import wheel.components.Label;
 import wheel.util.ActionRegistry;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class ActionRegistry_ESTest extends ActionRegistry_ESTest_scaffolding {
+ 
+public class ActionRegistryTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

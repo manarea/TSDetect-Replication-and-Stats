@@ -20,7 +20,14 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.jdom.Content;
 import org.junit.runner.RunWith;
 
-public class JoomlaOutputTest{
+public class JoomlaOutputTest
+ { 
+ { 
+ { 
+ { 
+ { 
+{ 
+{ 
 
   @Test
   public void test00()  throws Throwable  {

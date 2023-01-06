@@ -21,8 +21,8 @@ import org.evosuite.runtime.mock.java.net.MockURL;
 import org.jboss.net.protocol.file.Handler;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class HtmlViewerPanel_ESTest extends HtmlViewerPanel_ESTest_scaffolding {
+ 
+public class HtmlViewerPanelTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

@@ -21,8 +21,8 @@ import weka.core.FastVector;
 import weka.core.Instances;
 import weka.core.SparseInstance;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class ItemSet_ESTest extends ItemSet_ESTest_scaffolding {
+ 
+public class ItemSetTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

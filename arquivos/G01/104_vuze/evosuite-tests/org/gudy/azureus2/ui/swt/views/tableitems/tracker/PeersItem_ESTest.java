@@ -21,8 +21,8 @@ import org.gudy.azureus2.ui.swt.views.table.utils.TableColumnInfoImpl;
 import org.gudy.azureus2.ui.swt.views.tableitems.tracker.PeersItem;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class PeersItem_ESTest extends PeersItem_ESTest_scaffolding {
+ 
+public class PeersItemTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

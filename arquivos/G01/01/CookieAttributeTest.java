@@ -19,7 +19,14 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.jsecurity.web.attr.CookieAttribute;
 import org.junit.runner.RunWith;
 
-public class CookieAttributeTest{
+public class CookieAttributeTest
+ { 
+ { 
+ { 
+ { 
+ { 
+{ 
+{ 
 
   @Test
   public void test00()  throws Throwable  {

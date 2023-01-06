@@ -17,8 +17,8 @@ import org.junit.runner.RunWith;
 import org.quickserver.util.xmlreader.AccessConstraintConfig;
 import org.quickserver.util.xmlreader.IpFilterConfig;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class AccessConstraintConfig_ESTest extends AccessConstraintConfig_ESTest_scaffolding {
+ 
+public class AccessConstraintConfigTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

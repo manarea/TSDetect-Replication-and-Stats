@@ -19,7 +19,7 @@ import org.hibernate.jdbc.ColumnNameCache;
 import org.hibernate.jdbc.ResultSetWrapper;
 import org.junit.runner.RunWith;
 
-public class DaoFactoryTest {
+public class DaoFactoryTest { 
 
   @Test
   public void test00()  throws Throwable  {

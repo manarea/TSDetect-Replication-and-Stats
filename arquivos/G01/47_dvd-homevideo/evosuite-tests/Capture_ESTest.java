@@ -11,8 +11,8 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class Capture_ESTest extends Capture_ESTest_scaffolding {
+ 
+public class CaptureTest { 
 
   public void test0()  throws Throwable  {
 /* * Assertion Roulette: 

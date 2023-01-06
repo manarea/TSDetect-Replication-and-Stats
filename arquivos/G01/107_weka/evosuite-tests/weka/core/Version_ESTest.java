@@ -12,8 +12,8 @@ import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 import weka.core.Version;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class Version_ESTest extends Version_ESTest_scaffolding {
+ 
+public class VersionTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

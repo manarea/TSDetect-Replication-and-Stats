@@ -14,7 +14,9 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
-public class TestJavaTest{
+public class TestJavaTest
+
+{ 
 
   @Test
   public void test0()  throws Throwable  {

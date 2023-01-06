@@ -29,8 +29,8 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.jfree.date.SpreadsheetDate;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class DLFileEntryModelImpl_ESTest extends DLFileEntryModelImpl_ESTest_scaffolding {
+ 
+public class DLFileEntryModelImplTest { 
 
   @Test(timeout = 4000)
   public void test000()  throws Throwable  {

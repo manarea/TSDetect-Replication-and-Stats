@@ -28,8 +28,8 @@ import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.evosuite.runtime.testdata.FileSystemHandling;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class PreLaunchHelperImpl_ESTest extends PreLaunchHelperImpl_ESTest_scaffolding {
+ 
+public class PreLaunchHelperImplTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

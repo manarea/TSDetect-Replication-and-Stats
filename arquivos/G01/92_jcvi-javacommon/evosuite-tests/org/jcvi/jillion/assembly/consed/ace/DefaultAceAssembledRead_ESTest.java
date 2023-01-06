@@ -23,8 +23,8 @@ import org.jcvi.jillion.core.residue.nt.Nucleotide;
 import org.jcvi.jillion.core.residue.nt.NucleotideSequence;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class DefaultAceAssembledRead_ESTest extends DefaultAceAssembledRead_ESTest_scaffolding {
+ 
+public class DefaultAceAssembledReadTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Iterator;
 
 
-public class JoomlaOutput extends Task {
+public class JoomlaOutput { 
 	private Element root;
 	private String output = "templateDetails.xml";
 	private boolean nooverwrite = true;

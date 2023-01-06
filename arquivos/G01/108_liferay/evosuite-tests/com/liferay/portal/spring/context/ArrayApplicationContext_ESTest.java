@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class ArrayApplicationContext_ESTest extends ArrayApplicationContext_ESTest_scaffolding {
+ 
+public class ArrayApplicationContextTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

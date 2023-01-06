@@ -23,8 +23,8 @@ import org.evosuite.runtime.mock.java.net.MockInetAddress;
 import org.gudy.azureus2.core3.util.SystemTime;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class AZOtherInstanceImpl_ESTest extends AZOtherInstanceImpl_ESTest_scaffolding {
+ 
+public class AZOtherInstanceImplTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

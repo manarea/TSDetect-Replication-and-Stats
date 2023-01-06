@@ -15,8 +15,8 @@ import org.firebirdsql.gds.impl.wire.isc_db_handle_impl;
 import org.firebirdsql.gds.impl.wire.isc_stmt_handle_impl;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class isc_stmt_handle_impl_ESTest extends isc_stmt_handle_impl_ESTest_scaffolding {
+ 
+public class isc_stmt_handle_implTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

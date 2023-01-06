@@ -31,8 +31,8 @@ import org.evosuite.runtime.mock.java.net.MockInetAddress;
 import org.evosuite.runtime.mock.java.net.MockInetSocketAddress;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class NATTraverser_ESTest extends NATTraverser_ESTest_scaffolding {
+ 
+public class NATTraverserTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

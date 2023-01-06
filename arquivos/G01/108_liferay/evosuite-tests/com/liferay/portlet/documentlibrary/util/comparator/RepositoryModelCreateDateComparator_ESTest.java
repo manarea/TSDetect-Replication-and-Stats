@@ -26,8 +26,8 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class RepositoryModelCreateDateComparator_ESTest extends RepositoryModelCreateDateComparator_ESTest_scaffolding {
+ 
+public class RepositoryModelCreateDateComparatorTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

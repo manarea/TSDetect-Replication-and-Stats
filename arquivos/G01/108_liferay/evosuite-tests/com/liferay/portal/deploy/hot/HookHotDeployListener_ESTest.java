@@ -54,8 +54,8 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.mock.web.MockPageContext;
 import org.tuckey.web.MockServletContext;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class HookHotDeployListener_ESTest extends HookHotDeployListener_ESTest_scaffolding {
+ 
+public class HookHotDeployListenerTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

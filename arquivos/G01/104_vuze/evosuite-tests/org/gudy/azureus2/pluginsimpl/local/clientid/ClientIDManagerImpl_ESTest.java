@@ -18,8 +18,8 @@ import org.gudy.azureus2.plugins.clientid.ClientIDGenerator;
 import org.gudy.azureus2.pluginsimpl.local.clientid.ClientIDManagerImpl;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class ClientIDManagerImpl_ESTest extends ClientIDManagerImpl_ESTest_scaffolding {
+ 
+public class ClientIDManagerImplTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

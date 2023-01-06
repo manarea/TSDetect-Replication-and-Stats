@@ -32,8 +32,8 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class CertificationRequestInfo_ESTest extends CertificationRequestInfo_ESTest_scaffolding {
+ 
+public class CertificationRequestInfoTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

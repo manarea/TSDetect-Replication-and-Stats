@@ -30,8 +30,8 @@ import org.heal.module.metadata.TargetUserGroupBean;
 import org.heal.module.metadata.TaxonPathBean;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class CompleteMetadataBean_ESTest extends CompleteMetadataBean_ESTest_scaffolding {
+ 
+public class CompleteMetadataBeanTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

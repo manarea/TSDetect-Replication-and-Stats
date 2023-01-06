@@ -36,7 +36,7 @@ import java.beans.PropertyEditor;
  * @author Peter Ledbrook
  * @since 0.2
  */
-public class CookieAttribute<T> extends AbstractWebAttribute<T> {
+public class CookieAttribute<T> { 
 
     //TODO - complete JavaDoc
     

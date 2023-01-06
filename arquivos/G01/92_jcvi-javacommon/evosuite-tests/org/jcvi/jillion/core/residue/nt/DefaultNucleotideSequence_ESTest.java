@@ -29,8 +29,8 @@ import org.jcvi.jillion.core.residue.nt.NucleotideSequence;
 import org.jcvi.jillion.core.residue.nt.NucleotideSequenceBuilder;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class DefaultNucleotideSequence_ESTest extends DefaultNucleotideSequence_ESTest_scaffolding {
+ 
+public class DefaultNucleotideSequenceTest { 
 
   @Test(timeout = 4000)
   public void test00()  throws Throwable  {

@@ -17,8 +17,8 @@ import org.sourceforge.ifx.basetypes.IFXHexBinary;
 import org.sourceforge.ifx.basetypes.IFXObject;
 import org.sourceforge.ifx.basetypes.IFXString;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class IFXObject_ESTest extends IFXObject_ESTest_scaffolding {
+ 
+public class IFXObjectTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

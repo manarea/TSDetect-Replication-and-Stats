@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
 import org.pdfsam.guiclient.business.ClosableTabbedPanelAdder;
 import org.pdfsam.guiclient.commons.dnd.droppers.JVisualMultiSelectionDropper;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class AbstractDropper_ESTest extends AbstractDropper_ESTest_scaffolding {
+ 
+public class AbstractDropperTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

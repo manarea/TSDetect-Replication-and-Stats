@@ -22,8 +22,8 @@ import org.gudy.azureus2.ui.console.UserProfile;
 import org.gudy.azureus2.ui.console.commands.XML;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class XML_ESTest extends XML_ESTest_scaffolding {
+ 
+public class XMLTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {

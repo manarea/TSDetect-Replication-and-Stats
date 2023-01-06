@@ -1,7 +1,7 @@
 package com.soops.CEN4010.JMCA.JParser;
 
 
-public class TestJava {
+public class TestJava { 
     public TestJava() {
     }
 

@@ -40,7 +40,7 @@ import org.evosuite.runtime.testdata.EvoSuiteLocalAddress;
 import org.evosuite.runtime.testdata.FileSystemHandling;
 import org.junit.runner.RunWith;
 
-public class SQLUtilTest {
+public class SQLUtilTest { 
 
   @Test
   public void test000()  throws Throwable  {

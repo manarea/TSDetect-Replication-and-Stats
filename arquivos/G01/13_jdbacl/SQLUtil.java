@@ -48,7 +48,7 @@ import org.databene.jdbacl.model.DBUniqueConstraint;
  * @since 0.6.4
  * @author Volker Bergmann
  */
-public class SQLUtil {
+public class SQLUtil { 
 	
 	private static final Set<String> NO_SIZE_TYPES = CollectionUtil.toSet(
 			"DATE", "BLOB", "CLOB", "NCLOB");

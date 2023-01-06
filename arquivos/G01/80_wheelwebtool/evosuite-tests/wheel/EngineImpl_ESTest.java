@@ -21,8 +21,8 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.junit.runner.RunWith;
 import wheel.EngineImpl;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
-public class EngineImpl_ESTest extends EngineImpl_ESTest_scaffolding {
+ 
+public class EngineImplTest { 
 
   @Test(timeout = 4000)
   public void test0()  throws Throwable  {
