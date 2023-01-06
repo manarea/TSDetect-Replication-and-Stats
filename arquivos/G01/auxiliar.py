@@ -52,7 +52,7 @@ def look_for_same_named_file(current_folder, file_name):
         
     
 def copy_file(file_path, current_folder):
-    print("Copying: " + file_path + " to: " + current_folder)
+    # print("Copying: " + file_path + " to: " + current_folder)
     # Check if the file already exists
     if os.path.exists(current_folder):
         print("File already exists")
