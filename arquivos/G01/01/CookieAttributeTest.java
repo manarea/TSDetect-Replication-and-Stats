@@ -19,7 +19,7 @@ import org.evosuite.runtime.ViolatedAssumptionAnswer;
 import org.jsecurity.web.attr.CookieAttribute;
 import org.junit.runner.RunWith;
 
-@RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
+
 public class CookieAttribute_ESTest extends CookieAttribute_ESTest_scaffolding {
 
   @Test
