@@ -4,8 +4,18 @@ Delete all files from all folder that ends with scaffolding.java and replace it 
 import os
 import shutil
 
+
+def new_csv_file(file_path):
+    with open(file_path + ".csv", "w") as file:
+        print("Creating new file: " + file_path + ".csv")
+        
+def add_entry_to_csv(file_path, project_name, test_class, parent_class ):
+    with open(file_path + ".csv", "a") as file:
+        file.write("{0},{1},{2}\n".format(project_name, test_class, parent_class))
+
 def walk_all_folders():
     counter = 0
+    new_csv_file("C:/Users/maxim/OneDrive/Escritorio/aux2/registro")
     for root, dirs, files in os.walk("."):
         for file in files:
             if file.endswith("scaffolding.java"):
@@ -21,6 +31,10 @@ def walk_all_folders():
                 # print(fixed_root, fixed_name)
                 found_file_path = look_for_same_named_file(fixed_root, fixed_name)
                 copy_file(found_file_path, os.path.join(root, fixed_name))
+                aux_root = "C:/Users/maxim/OneDrive/Escritorio/Code/AuxTestRepo/arquivos/G01"
+                add_entry_to_csv("C:/Users/maxim/OneDrive/Escritorio/aux2/registro", fixed_name.replace(".java",""),
+                                 aux_root + os.path.join(root[1:].replace("\\", "/"), file.replace("\\", "/")),
+                                 aux_root + os.path.join(root[1:].replace("\\", "/"), fixed_name.replace("\\", "/")))
     print(counter)
 
 
